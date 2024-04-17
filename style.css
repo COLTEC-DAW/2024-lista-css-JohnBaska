@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #05056d;
+    height: 100%
+}
+
+.page-wrapper{
+    color: orange;
+    width: 80%;
+    height: 100%;
+    max-width: 1280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:justify;
+    /*font-family: sans-serif*/
+}
+
+.intro{
+    border: 2px solid rgb(126, 26, 126);
+}
+
+.summary{
+    text-align: center;
+}
+
+abbr{
+    font-family: small-caps;
+}
+
+.main-supporting{
+    line-height: 1.5;
+}
+
+.intro h1, .intro h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+h1{
+    font-size: 1.8rem;
+}
+
+h2{
+    font-size: 1.4rem;
+}
+
+h3{
+    font-size: 1.2rem;
+}
+
+p{
+    text-indent: 1em;
+}
+
+a{
+    color:rgb(126, 26, 126);
+}
