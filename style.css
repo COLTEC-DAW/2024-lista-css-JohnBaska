@@ -13,16 +13,44 @@ body{
     width: 80%;
     height: 100%;
     max-width: 1280px;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
     text-align:justify;
     /*font-family: sans-serif*/
 }
 
 .intro{
-    border: 2px solid rgb(126, 26, 126);
+    height: 550px;
+}
+
+.explanation{
+    width: 60%;
+    margin-right: 35%;
+    border-right: 1px solid #1f295c;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-right: 4%;
+}
+
+.design-selection{
+    position: absolute;
+    top: 545px;
+    left: 70%;
+}
+
+.design-selection h3{
+    text-align: center;
+}
+
+#design-archives{
+    display: none;
+}
+
+header{
+    background-color: rgb(1, 1, 51);
+    color: rgb(235, 202, 133);
 }
 
 .summary{
@@ -37,17 +65,32 @@ abbr{
     line-height: 1.5;
 }
 
-.intro h1, .intro h2{
-    text-align: center;
-    padding-bottom: 10px;
-}
-
 h1{
     font-size: 1.8rem;
+    display: inline-block;
+    margin-left: 25%;
+    margin-right: 7%;
+    padding-bottom: 1em;
+}
+
+li{
+    list-style: none;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+footer{
+    margin: 4%;
+}
+
+footer a{
+    border: 2px solid;
+    padding: 0.5em; 
 }
 
 h2{
     font-size: 1.4rem;
+    display: inline-block;
 }
 
 h3{
