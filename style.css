@@ -140,6 +140,7 @@ a:visited{
 .benefits{
     display: flex;
     flex-direction: row;
+    border-bottom: 2px solid rgb(224, 140, 101);
     
     p{
         width: 70%;
@@ -159,9 +160,25 @@ a:visited{
 }
 
 .participation{
-    border: 2px solid black;
     display: flex;
+    flex-flow: row wrap;
+    border-top: 2px solid rgb(224, 140, 101);
+    border-bottom: 2px solid rgb(224, 140, 101);
     
-    h3{ display: flex;
-        width: 50%}
+    h3{ 
+        display: flex;
+        width: 40%; 
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+        order: 1;
+    }
+
+    p{
+        width: 40%;
+        order: 2;
+        flex-grow: 1;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
 }
