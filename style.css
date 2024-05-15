@@ -86,6 +86,8 @@ footer{
 footer a{
     border: 2px solid;
     padding: 0.5em; 
+    width: 50px;
+    text-align: center;
 }
 
 h2{
@@ -103,4 +105,63 @@ p{
 
 a{
     color:rgb(126, 26, 126);
+    font: bold;
+}
+
+a:hover{
+    color:rgb(177, 69, 177);
+}
+
+a:visited{
+    color:red;
+    font-size: 100px;
+}
+
+.main-supporting .explanation :nth-child(2)::first-letter{
+    color: rgb(240, 66, 66);
+    font-size: 300%;
+    float: left;
+}
+
+.design-selection li{
+    border-top: 1px solid rgb(87, 26, 185);
+}
+
+.design-selection li:last-child{
+    border-bottom: 1px solid rgb(87, 26, 185);
+}
+
+.main-supporting footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.benefits{
+    display: flex;
+    flex-direction: row;
+    
+    p{
+        width: 70%;
+        display: flex;
+        order: 1;
+        flex-grow: 7;
+    }
+
+    h3{ 
+        display: flex;
+        height: 3;
+        justify-content: center;
+        align-items: center;
+        order: 2;
+        flex-grow: 3;
+    }
+}
+
+.participation{
+    border: 2px solid black;
+    display: flex;
+    
+    h3{ display: flex;
+        width: 50%}
 }
