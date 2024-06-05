@@ -182,3 +182,56 @@ a:visited{
         padding-left: 10px;
     }
 }
+
+/* T7 */
+
+@media screen and (max-width: 768px){
+    .design-selection{
+        position: static;
+    }
+
+    .explanation{
+        border-right: none;
+        width: 100%;
+        h3{
+            text-align: center;
+        }
+    }
+
+    h3{
+        text-align: center;
+    }
+
+    .participation{
+        display: flex;
+        flex-flow:  column wrap;
+
+        h3{
+            width: 100%; 
+            text-align: center;
+        }
+    
+        p{
+            width: 100%;
+        }
+    }
+
+    header{
+        height: auto;
+    }
+
+    p{
+        text-indent: none;
+    }
+}
+
+@media print {
+    body{
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .banner{
+        background-color: rgb(235, 202, 133);
+        color: rgb(1, 1, 51);
+    }
+}
